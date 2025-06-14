@@ -1,1 +1,29 @@
+Basics:
+ 
+
+SQL Aggregate Functions and Other Basic Operators
+Aggregate functions are often used with the GROUP BY clause of the SELECT statement. The GROUP BY clause splits the result-set into groups of values and the aggregate function can be used to return a single value for each group.
+ 
+
+SQL Commands | DDL, DQL, DML, DCL and TCL Commands 
+
+
+SQL JOINS:
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+Types Of Joins: 
+a.	Inner, Left, Right, Full Outer
+b.	Cross Join (Cartesian Join)
+  
+c.	Self-Join:
+  
+SQL Indexes: Indexes are special data structures associated with tables or views that help speed up the query. SQL Server provides two types of indexes: clustered index and non-clustered index. An index in SQL is a schema object that improves the speed of data retrieval operations on a table.
+  
+a. Clustered Index: 
+A clustered index stores data rows in a sorted structure based on its key values. Each table has only one clustered index because data rows can be only sorted in one order. A table that has a clustered index is called a clustered table. Clustered index uses the B-tree structure to organize its data.
+
+Ref: SQL Server Clustered Indexes
+b. Non-Clustered Index: A non-clustered index is a data structure that improves the speed of data retrieval from tables. Unlike a clustered index, a non-clustered index sorts and stores data separately from the data rows in the table. It is a copy of selected columns of data from a table with the links to the associated table.
+Like a clustered index, a non-clustered index uses the B-tree structure to organize its data.
+SQL Subquery:
+   
 
